@@ -2,7 +2,7 @@
 
 [![ASL live predictor](http://img.youtube.com/vi/anJUG5BumEs/0.jpg)](http://www.youtube.com/watch?v=anJUG5BumEs)
 
-This repository focuses on classification of [ASL  dataset](https://www.kaggle.com/grassknoted/asl-alphabet). This repository uses fastai library for building deep learning model for the purpose of classification. I have used resnet34 pretrained model which is trained on 87,000 images of size 200x200 pixels. There are 29 classes, of which 26 are for letters from A-Z, and the other three classes are for SPACE, DELETE and NOTHING.
+This repository focuses on classification of [ASL  dataset](https://www.kaggle.com/grassknoted/asl-alphabet). This repository uses fastai library for building deep learning model for the purpose of classification. I have used resnet34 pretrained model which is trained on 87,000 images of size 200x200 pixels. There are 29 classes, of which 26 are for letters from A-Z, and the other three classes are for SPACE, DELETE and NOTHING. This model scores an aacuracy of **99.97%** without unfreezing of resnet34 model.
 
 Below image shows different characters of sign language:
 
